@@ -57,7 +57,7 @@ export default function Home() {
               <div style={{ fontSize: 11, color: '#aaa' }}>Comparez les prix au Québec</div>
             </div>
           </div>
-          <div style={{ fontSize: 12, color: '#888' }}>IGA · Metro · Maxi · Super C</div>
+          <div style={{ display: "flex", gap: 10 }}><a href="/login" style={{ fontSize: 13, color: "#555", textDecoration: "none", padding: "7px 14px", border: "1px solid #e0e0e0", borderRadius: 8 }}>Connexion</a><a href="/signup" style={{ fontSize: 13, color: "#fff", background: "#e63946", textDecoration: "none", padding: "7px 14px", borderRadius: 8, fontWeight: 600 }}>S'inscrire</a></div>
         </div>
       </div>
 
